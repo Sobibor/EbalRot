@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnPersons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать таблицу 'Persons'" />
+
+    <Button
+        android:id="@+id/btnProjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать таблицу 'Projects'" />
+
+    <Button
+        android:id="@+id/btnTechnologies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать таблицу 'Technologies'" />
+
+    <ListView
+        android:id="@+id/listViewData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
